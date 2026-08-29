@@ -5,10 +5,11 @@ import { Linkedin, Github, Mail, Send, Loader2, CheckCircle2 } from "lucide-reac
 import Reveal from "./Reveal";
 import Wiggle from "./Wiggle";
 
+
 // 1. Go to https://web3forms.com and enter your email — it emails you a free Access Key instantly (no signup form, no card).
 // 2. Copy that key and paste it below, replacing YOUR_ACCESS_KEY_HERE.
 // 3. Every message submitted on the site will now land directly in that email inbox.
-const WEB3FORMS_ACCESS_KEY = "YOUR_ACCESS_KEY_HERE";
+const WEB3FORMS_ACCESS_KEY = "1a7f6b96-859c-4d9c-8f91-b3d82d812b27";
 
 type Status = "idle" | "sending" | "sent" | "error";
 

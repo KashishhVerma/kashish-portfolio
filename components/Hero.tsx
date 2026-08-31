@@ -9,7 +9,7 @@ import Wiggle from "./Wiggle";
 
 const Hero3D = dynamic(() => import("./Hero3D"), { ssr: false });
 
-const stack = ["Node.js", "React", "MongoDB", "JavaScript", "Java", "Express", "Tailwind"];
+const stack = ["Node.js", "React", "Next.js", "TypeScript", "MongoDB", "PostgreSQL", "Stripe", "Java", "Express", "Tailwind"];
 
 export default function Hero() {
   return (

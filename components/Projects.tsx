@@ -15,6 +15,14 @@ const projects = [
     color: "bg-yellow",
     link: "https://collaborative-whiteboard-bay.vercel.app/",
   },
+    {
+    name: "SplitPay",
+    tag: "Secure Expense Splitting Platform",
+    desc: "Full-stack payment settlement app with multi-person expense splitting, Stripe integration, and JWT authentication. Built a security layer with bcrypt hashing, rate limiting (100 req/15min), audit logging, and idempotency keys to prevent duplicate payments — deployed with PostgreSQL, dark mode, and webhook verification.",
+    stack: ["Next.js 14", "TypeScript", "Stripe", "PostgreSQL"],
+    color: "bg-mauve",
+    link: "https://split-pay-6jrj.onrender.com/",
+  },
   {
     name: "AlgoPrep",
     tag: "Interview Preparation Platform",

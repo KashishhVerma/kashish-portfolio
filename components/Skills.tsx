@@ -11,6 +11,10 @@ import {
   Share2,
   KeyRound,
   GitBranch,
+  FileCode2,
+  Triangle,
+  CreditCard,
+  Boxes,
   CircleEllipsis,
   Send,
   type LucideIcon,
@@ -25,8 +29,9 @@ const groups: { title: string; color: string; items: Skill[] }[] = [
     title: "Languages",
     color: "bg-yellow",
     items: [
-      { name: "Java", icon: Coffee },
+     { name: "Java", icon: Coffee },
       { name: "JavaScript", icon: Braces },
+      { name: "TypeScript", icon: FileCode2 },
       { name: "SQL", icon: Database },
     ],
   },
@@ -35,6 +40,7 @@ const groups: { title: string; color: string; items: Skill[] }[] = [
     color: "bg-teal",
     items: [
       { name: "React.js", icon: Atom },
+      { name: "Next.js", icon: Triangle },
       { name: "Redux Toolkit", icon: Layers },
       { name: "Tailwind CSS", icon: Wind },
       { name: "Vite", icon: Zap },
@@ -44,10 +50,11 @@ const groups: { title: string; color: string; items: Skill[] }[] = [
     title: "Backend",
     color: "bg-coral",
     items: [
-      { name: "Node.js", icon: Server },
+       { name: "Node.js", icon: Server },
       { name: "Express.js", icon: Route },
       { name: "Socket.io", icon: Share2 },
       { name: "JWT Auth", icon: KeyRound },
+      { name: "Stripe", icon: CreditCard },
     ],
   },
   {
@@ -55,6 +62,8 @@ const groups: { title: string; color: string; items: Skill[] }[] = [
     color: "bg-yellow",
     items: [
       { name: "MongoDB", icon: Database },
+       { name: "PostgreSQL", icon: Database },
+      { name: "Prisma", icon: Boxes },
       { name: "Appwrite", icon: Server },
       { name: "Git / GitHub", icon: GitBranch },
       { name: "Postman", icon: Send },

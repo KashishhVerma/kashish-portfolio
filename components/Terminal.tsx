@@ -25,9 +25,11 @@ const RESPONSES: Record<string, string> = {
     "SDE Intern @ Hexaclimate Solutions (Feb–Apr 2026)\n→ Docs, API validation, QA across Tracker/GIS/Dashboard modules.",
   education: "B.Tech CSE, NIET, Greater Noida (2023–Present) — CGPA 8.70",
   projects:
-    "1. CollabBoard — real-time collaborative whiteboard\n2. AlgoPrep — DSA interview-prep platform\n3. WriteFlow — full-stack blog platform\ntype a project name for more (e.g. 'collabboard')",
+    "1. CollabBoard — real-time collaborative whiteboard\n2. SplitPay — secure expense-splitting platform (Stripe + JWT)\n3. AlgoPrep — DSA interview-prep platform\n4. WriteFlow — full-stack blog platform\ntype a project name for more (e.g. 'collabboard')",
   collabboard:
     "CollabBoard: real-time whiteboard, live cursors, chat, canvas sync.\nStack: React, Socket.io, Node, MongoDB.",
+    splitpay:
+      "SplitPay: full-stack expense-splitting app with Stripe payments\nand JWT auth. Rate limiting, audit logs, idempotency keys, and\nwebhook verification — deployed on Render with PostgreSQL (Neon).",
   algoprep:
     "AlgoPrep: JWT-auth MERN platform with a topic-wise DSA tracker\nand a streak algorithm using ISO date logic.",
   writeflow:

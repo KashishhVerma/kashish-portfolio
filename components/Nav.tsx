@@ -11,7 +11,7 @@ export default function Nav() {
 
   return (
     <>
-      <nav className="fixed top-4 left-4 right-4 z-50 flex items-center justify-between px-5 py-3 bg-card border-2 border-ink rounded-xl shadow-brut-sm">
+      <nav className="fixed top-4 left-10 right-10 z-50 flex items-center justify-between px-5 py-3.5 bg-card border-2 border-ink rounded-xl shadow-brut-sm">
         <div className="w-9 h-9 flex items-center justify-center bg-yellow border-2 border-ink rounded-lg font-hand font-bold text-base">
           KV
         </div>

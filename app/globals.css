@@ -3,6 +3,22 @@
 @tailwind utilities;
 
 html {
+  zoom: 95%;
+  /* or use: transform: scale(0.85); */
+  transform-origin: top left;
+}
+
+body {
+  width: 100%;
+}
+/* ZOOM/SCALE DOWN - END */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
   scroll-behavior: smooth;
 }
 

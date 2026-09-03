@@ -18,9 +18,9 @@ const projects = [
     {
     name: "SplitPay",
     tag: "Secure Expense Splitting Platform",
-    desc: "Full-stack payment settlement app with multi-person expense splitting, Stripe integration, and JWT authentication. Built a security layer with bcrypt hashing, rate limiting (100 req/15min), audit logging, and idempotency keys to prevent duplicate payments — deployed with PostgreSQL, dark mode, and webhook verification.",
+    desc: "Full-stack payment settlement app with multi-person expense splitting, Stripe integration, and JWT authentication. Includes bcrypt security, rate limiting, audit logs, idempotency, PostgreSQL, dark mode, and verified webhooks.",
     stack: ["Next.js 14", "TypeScript", "Stripe", "PostgreSQL"],
-    color: "bg-mauve",
+    color: "bg-pinkLight",
     link: "https://split-pay-6jrj.onrender.com/",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     tag: "Interview Preparation Platform",
     desc: "Full-stack MERN platform with JWT + bcrypt auth and role-based routing. Topic-wise DSA dashboard tracking 100+ problems with a streak algorithm built on ISO date logic.",
     stack: ["Redux Toolkit", "Express", "MongoDB"],
-    color: "bg-teal",
+    color: "bg-mauve",
     link: "https://algoprep-fullstack.vercel.app/",
   },
   {
@@ -95,7 +95,7 @@ export default function Projects() {
           PROJECTS
         </Wiggle>
       </Reveal>
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-2 gap-10">
         {projects.map((p, i) => (
           <Reveal key={p.name} delay={i * 0.1}>
             <TiltCard p={p} />

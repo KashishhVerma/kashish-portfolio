@@ -11,9 +11,11 @@ const config: Config = {
         ink: "var(--ink)",
         yellow: "var(--pink)",
         coral: "var(--rose)",
-        teal: "var(--mauve)",
+        teal: "var(--teal)",
         line: "var(--line)",
         muted: "var(--muted)",
+        mauve: "var(--mauve)",
+        pinkLight: "var(--pink-light)",
       },
       fontFamily: {
         display: ["var(--font-hand-bold)", "cursive"],
